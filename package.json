@@ -14,7 +14,8 @@
     "lib"
   ],
   "dependencies": {
-    "subfont": "^3.7.0"
+    "globby": "^10.0.1",
+    "subfont": "^3.7.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
