@@ -31,13 +31,11 @@
     "eslint-plugin-standard": "^4.0.0",
     "magicpen-prism": "3.0.2",
     "mocha": "^6.0.0",
-    "netlify-cli": "^2.19.0",
     "nyc": "^14.0.0",
     "offline-github-changelog": "^1.6.1",
     "prettier": "~1.18.2",
     "rimraf": "^3.0.0",
-    "unexpected": "^11.0.0-1",
-    "unexpected-assetgraph": "^1.1.1"
+    "unexpected": "^11.0.0-1"
   },
   "main": "lib/index.js",
   "scripts": {
