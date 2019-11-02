@@ -19,7 +19,7 @@ describe('extractConfig', () => {
       inlineFonts: false,
       inlineCss: false,
       fontDisplay: 'swap',
-      entryPoints: [
+      inputFiles: [
         resolve(BUILD_DIR, '404.html'),
         resolve(BUILD_DIR, '500.html'),
         resolve(BUILD_DIR, 'index.html')
@@ -45,7 +45,7 @@ describe('extractConfig', () => {
       inlineFonts: true,
       inlineCss: true,
       fontDisplay: 'optional',
-      entryPoints: [resolve(BUILD_DIR, 'index.html')]
+      inputFiles: [resolve(BUILD_DIR, 'index.html')]
     });
   });
 
@@ -72,7 +72,7 @@ describe('extractConfig', () => {
       }
     };
     expect(extractConfig(config), 'to satisfy', {
-      entryPoints: [
+      inputFiles: [
         resolve(BUILD_DIR, 'index.html'),
         resolve(BUILD_DIR, '404.html'),
         resolve(BUILD_DIR, 'subpage/index.html')
@@ -88,7 +88,7 @@ describe('extractConfig', () => {
       }
     };
     expect(extractConfig(config), 'to satisfy', {
-      entryPoints: [
+      inputFiles: [
         resolve(BUILD_DIR, '404.html'),
         resolve(BUILD_DIR, '500.html'),
         resolve(BUILD_DIR, 'index.html'),
