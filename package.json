@@ -13,6 +13,20 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "font",
+    "fonts",
+    "webfont",
+    "webfonts",
+    "optimization",
+    "optimisation",
+    "google-fonts",
+    "self-hosting",
+    "subset",
+    "subsetting"
+  ],
   "dependencies": {
     "globby": "^10.0.1",
     "subfont": "^4.0.3"
