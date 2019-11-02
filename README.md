@@ -23,8 +23,7 @@ Then add the following to your `netlify.yml`:
 
 ```yml
 plugins:
-  subfont:
-    type: netlify-plugin-subfont
+  - type: netlify-plugin-subfont
 ```
 
 If you are using local fonts from your own repository it is recommended to also install [fonttools](https://github.com/fonttools/fonttools). On Netlify you can do this by adding the following content into `requirements.txt` in your project root:
@@ -43,8 +42,7 @@ These are the configuration options with their default values:
 
 ```yml
 plugins:
-  subfont:
-    type: netlify-plugin-subfont
+  - type: netlify-plugin-subfont
     config:
       # An array of glob patterns for pages on your site
       # Recursive traversal will start from these
