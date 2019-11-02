@@ -1,3 +1,7 @@
+### v1.0.2 (2019-11-02)
+
+- [Add missing keywords](https://github.com/Munter/netlify-plugin-subfont/commit/39bebaec8da9737d7717208ee3301fb0b946c0f6) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v1.0.1 (2019-11-02)
 
 - [#5](https://github.com/Munter/netlify-plugin-subfont/pull/5) Update to new array config syntax ([Peter Müller](mailto:munter@fumle.dk))
