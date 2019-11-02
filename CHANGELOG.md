@@ -1,3 +1,8 @@
+### v1.0.1 (2019-11-02)
+
+- [#5](https://github.com/Munter/netlify-plugin-subfont/pull/5) Update to new array config syntax ([Peter Müller](mailto:munter@fumle.dk))
+- [#3](https://github.com/Munter/netlify-plugin-subfont/pull/3) Add Greenkeeper badge 🌴 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+
 ### v1.0.0 (2019-10-18)
 
 - [Add README](https://github.com/Munter/netlify-plugin-subfont/commit/dbadc0ff3d9fb22e262a9e541c785e7470ac1c22) ([Peter Müller](mailto:munter@fumle.dk))
