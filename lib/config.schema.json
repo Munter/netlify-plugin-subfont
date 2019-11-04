@@ -1,0 +1,52 @@
+{
+  "canonicalRoot": {
+    "displayName": "Canonical root",
+    "description": "Setting canonicalRoot will enable subfont to map canonical URL's to your page in your code to local files on disk",
+    "type": "string"
+  },
+  "recursive": {
+    "description": "Follow your links across all pages to optimize the fonts across the antire site",
+    "type": "boolean",
+    "default": true
+  },
+  "inlineFonts": {
+    "displayName": "Inline fonts",
+    "description": "Inline generated font subsets into their respective @font-face blocks. When set to `false` external font files will be created",
+    "type": "boolean",
+    "default": false
+  },
+  "inlineCss": {
+    "displayName": "Inline CSS",
+    "description": "Inline generated CSS @font-face blocks into each page. When set to `false` an external CSS file will be created",
+    "type": "boolean",
+    "default": false
+  },
+  "fontDisplay": {
+    "displayName": "CSS font-display",
+    "description": "Subfont lets you set CSS font-display value of the optimized subsets. See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display",
+    "type": "string",
+    "enum": [
+      "auto",
+      "block",
+      "swap",
+      "fallback",
+      "optional"
+    ],
+    "default": "swap"
+  },
+  "entryPoints": {
+    "displayName": "Entry points",
+    "description": "An array of glob patterns for pages on your site. Recursive traversal will start from these",
+    "type": "array",
+    "items": [
+      {
+        "type": "string"
+      }
+    ],
+    "minItems": 1,
+    "uniqueItems": true,
+    "default": [
+      "*.html"
+    ]
+  }
+}
