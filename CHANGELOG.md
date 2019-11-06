@@ -1,3 +1,8 @@
+### v1.0.3 (2019-11-06)
+
+- [Use json schema to validate config](https://github.com/Munter/netlify-plugin-subfont/commit/3df54e0740db8e2c3149d8ecab165c995cfd4e9a) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add json schema for configuration](https://github.com/Munter/netlify-plugin-subfont/commit/82b380a98b78179ccea0dcb221d7a8c0458c4c04) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v1.0.2 (2019-11-02)
 
 - [Add missing keywords](https://github.com/Munter/netlify-plugin-subfont/commit/39bebaec8da9737d7717208ee3301fb0b946c0f6) ([Peter Müller](mailto:munter@fumle.dk))
