@@ -1,3 +1,7 @@
+### v2.0.0 (2019-11-09)
+
+- [Use schema for input validation and defaults](https://github.com/Munter/netlify-plugin-subfont/commit/9f83827f803f1bf82334853243fb1f9b92693fb3) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v1.0.3 (2019-11-06)
 
 - [Use json schema to validate config](https://github.com/Munter/netlify-plugin-subfont/commit/3df54e0740db8e2c3149d8ecab165c995cfd4e9a) ([Peter Müller](mailto:munter@fumle.dk))
