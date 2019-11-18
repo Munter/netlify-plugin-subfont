@@ -1,3 +1,14 @@
+### v3.0.0 (2019-11-18)
+
+#### Pull requests
+
+- [#7](https://github.com/Munter/netlify-plugin-subfont/pull/7) Update prettier to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+
+#### Commits to master
+
+- [Remove canonicalRoot config and use URL env variable instead](https://github.com/Munter/netlify-plugin-subfont/commit/48d9277c9d27a2a9cba0034ccc6a8910be06f0fa) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependencies](https://github.com/Munter/netlify-plugin-subfont/commit/c9a39dd7c5e05dfa6b00d02338033a85261adc4e) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v2.0.0 (2019-11-09)
 
 - [Use schema for input validation and defaults](https://github.com/Munter/netlify-plugin-subfont/commit/9f83827f803f1bf82334853243fb1f9b92693fb3) ([Peter Müller](mailto:munter@fumle.dk))
