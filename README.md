@@ -47,12 +47,7 @@ plugins:
       # An array of glob patterns for pages on your site
       # Recursive traversal will start from these
       entryPoints:
-        - *.html
-
-      # canonicalRoot is the origin where your page will eventually be deployed
-      # Setting canonicalRoot will enable subfont to map canonical URL's to your
-      # page in your code to local files on disk
-      canonicalRoot: https://your-page.netlify.com
+        - '*.html'
 
       # Follow your links across all pages to optimize the fonts across the antire site
       recursive: true
