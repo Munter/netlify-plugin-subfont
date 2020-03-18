@@ -15,16 +15,14 @@ Subfont is compatible with Google Fonts and local fonts.
 
 ## Installation
 
-```
-npm install --save-dev netlify-plugin-subfont
+To install, add the following lines to your `netlify.toml` file:
+
+```toml
+[[plugins]]
+package = "netlify-plugin-subfont"
 ```
 
-Then add the following to your `netlify.yml`:
-
-```yml
-plugins:
-  - type: netlify-plugin-subfont
-```
+Note: The `[[plugins]]` line is required for each plugin, even if you have other plugins in your `netlify.toml` file already.
 
 If you are using local fonts from your own repository it is recommended to also install [fonttools](https://github.com/fonttools/fonttools). On Netlify you can do this by adding the following content into `requirements.txt` in your project root:
 
@@ -40,29 +38,31 @@ Subfont works out of the box, but can be improved upon with some improved knowle
 
 These are the configuration options with their default values:
 
-```yml
-plugins:
-  - type: netlify-plugin-subfont
-    config:
-      # An array of glob patterns for pages on your site
-      # Recursive traversal will start from these
-      entryPoints:
-        - '*.html'
+```toml
+[[plugins]]
+package = "netlify-plugin-subfont"
 
-      # Follow your links across all pages to optimize the fonts across the antire site
-      recursive: true
+  [plugins.inputs]
+  # An array of glob patterns for pages on your site
+  # Recursive traversal will start from these
+  entryPoints = [
+    "*.html",
+  ]
 
-      # Subfont lets you set CSS font-display value of the optimized subsets
-      # See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
-      fontDisplay: swap
+  # Follow your links across all pages to optimize the fonts across the antire site
+  recursive = true
 
-      # Inline generated CSS @font-face blocks into each page
-      # When set to `false` an external CSS file will be created
-      inlineCss: false
+  # Subfont lets you set CSS font-display value of the optimized subsets
+  # See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
+  fontDisplay = "swap"
 
-      # Inline generated font subsets into their respective @font-face blocks
-      # When set to `false` external font files will be created
-      inlineFonts: false
+  # Inline generated CSS @font-face blocks into each page
+  # When set to `false` an external CSS file will be created
+  inlineCss = false
+
+  # Inline generated font subsets into their respective @font-face blocks
+  # When set to `false` external font files will be created
+  inlineFonts = false
 ```
 
 ## License
