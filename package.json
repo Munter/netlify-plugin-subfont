@@ -2,6 +2,9 @@
   "name": "netlify-plugin-subfont",
   "description": "Netlify build plugin to run automated web font loading optimizations on static pages",
   "repository": "git://github.com/munter/netlify-plugin-subfont.git",
+  "bugs": {
+    "url": "https://github.com/munter/netlify-plugin-subfont/issues"
+  },
   "version": "3.0.1",
   "license": "BSD-3-Clause",
   "maintainers": [
