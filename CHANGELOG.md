@@ -1,3 +1,20 @@
+### v4.0.0 (2020-04-05)
+
+#### Pull requests
+
+- [#22](https://github.com/munter/netlify-plugin-subfont/pull/22) Update Node.js to 10,12,13 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#20](https://github.com/munter/netlify-plugin-subfont/pull/20) Upgrade to latest version of Netlify Build ([ehmicky](mailto:ehmicky@gmail.com))
+- [#16](https://github.com/munter/netlify-plugin-subfont/pull/16) Update installation instructions ([Jessica Parsons](mailto:verythorough@users.noreply.github.com))
+- [#11](https://github.com/munter/netlify-plugin-subfont/pull/11) Update nyc to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+- [#12](https://github.com/munter/netlify-plugin-subfont/pull/12) Update eslint-plugin-node to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+
+#### Commits to master
+
+- [Activate renovate](https://github.com/munter/netlify-plugin-subfont/commit/b37ffd7522fc57c6cbb17db1838168bded57ade2) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update to prettier 2 and use eslint to run it](https://github.com/munter/netlify-plugin-subfont/commit/0f560b8cb08287485e418beb0a98cdee846ba4da) ([Peter Müller](mailto:munter@fumle.dk))
+- [Switch netlify config from deprecated yaml to toml](https://github.com/munter/netlify-plugin-subfont/commit/801fe3915125ec4c2b25613d17c58f4d2f0025cf) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependencies and run audit](https://github.com/munter/netlify-plugin-subfont/commit/2c56d15445ac634c6a9521850b0968eb5cafa757) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v3.0.1 (2019-12-10)
 
 #### Pull requests
