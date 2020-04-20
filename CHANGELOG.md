@@ -1,3 +1,8 @@
+### v4.0.1 (2020-04-20)
+
+- [Add manifest.yml to distributed package so netlify build applies defaults](https://github.com/munter/netlify-plugin-subfont/commit/c4d4f79fdc22b688addd9cba6a6c7d9b769d1e4c) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency @netlify\/build to ^0.3.0](https://github.com/munter/netlify-plugin-subfont/commit/a212daee334f402a118e8decbcbcfe16d005e842) ([Renovate Bot](mailto:bot@renovateapp.com))
+
 ### v4.0.0 (2020-04-05)
 
 #### Pull requests
