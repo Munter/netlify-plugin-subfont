@@ -4,6 +4,7 @@ node_js:
   - 10
   - 12
   - 13
+  - 14
 
 script: npm run ci
 after_success: <coverage/lcov.info ./node_modules/coveralls/bin/coveralls.js
