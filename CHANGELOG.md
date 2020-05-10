@@ -1,3 +1,17 @@
+### v4.0.2 (2020-05-10)
+
+#### Pull requests
+
+- [#25](https://github.com/munter/netlify-plugin-subfont/pull/25) Update Node.js to 10,12,13,14 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#30](https://github.com/munter/netlify-plugin-subfont/pull/30) Rename `BUILD\_DIR` to `PUBLISH\_DIR` ([ehmicky](mailto:ehmicky@gmail.com))
+- [#29](https://github.com/munter/netlify-plugin-subfont/pull/29) Remove return value from `onPostBuild` ([Peter Müller](mailto:munter@fumle.dk), [ehmicky](mailto:ehmicky@gmail.com))
+
+#### Commits to master
+
+- [Improve error handling by failing netlify build instead of throwing. Closes \#31](https://github.com/munter/netlify-plugin-subfont/commit/aa3b4544289e73d8e2173fac7eb82965301de9d4) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency eslint to v7](https://github.com/munter/netlify-plugin-subfont/commit/c6a83a500fee5bc893c210b5a26a07e7e0e338f1) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to ^0.4.0](https://github.com/munter/netlify-plugin-subfont/commit/97ed527d04d277bc9f6b2696e4fb42fb82b1484b) ([Renovate Bot](mailto:bot@renovateapp.com))
+
 ### v4.0.1 (2020-04-20)
 
 - [Add manifest.yml to distributed package so netlify build applies defaults](https://github.com/munter/netlify-plugin-subfont/commit/c4d4f79fdc22b688addd9cba6a6c7d9b769d1e4c) ([Peter Müller](mailto:munter@fumle.dk))
