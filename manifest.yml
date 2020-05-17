@@ -20,3 +20,7 @@ inputs:
     default: ['*.html']
     # description: An array of glob patterns for pages on your site. Recursive traversal will start from these
     # validation: array of strings, minimum 1 item, unique items
+  - name: fallbacks
+    default: true
+    # description: Include fallbacks so the original font will be loaded when dynamic content gets injected at runtime.
+    # validation: boolean

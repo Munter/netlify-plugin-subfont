@@ -63,6 +63,10 @@ package = "netlify-plugin-subfont"
   # Inline generated font subsets into their respective @font-face blocks
   # When set to `false` external font files will be created
   inlineFonts = false
+
+  # Include fallbacks so the original font will be loaded when dynamic content gets injected at runtime
+  # When set to `false` external font files will be created
+  fallbacks = true
 ```
 
 ## License
