@@ -1,86 +1,89 @@
-### v4.0.2 (2020-05-10)
+### v4.1.0 (2020-05-17)
+
+- [Add 'fallbacks' option to include original fonts as fallbacks for dynamic content. Closes \#37](https://github.com/Munter/netlify-plugin-subfont/commit/bcf724eae5da0fe50a91bf9c204d63f2c5e6b6cf) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency eslint-plugin-mocha to v7](https://github.com/Munter/netlify-plugin-subfont/commit/8004ddff6c3c7fd12cd13d1ee311ef2e90acae76) ([Renovate Bot](mailto:bot@renovateapp.com))
+
+### v4.0.2 (2020-05-11)
 
 #### Pull requests
 
-- [#25](https://github.com/munter/netlify-plugin-subfont/pull/25) Update Node.js to 10,12,13,14 ([Renovate Bot](mailto:bot@renovateapp.com))
-- [#30](https://github.com/munter/netlify-plugin-subfont/pull/30) Rename `BUILD\_DIR` to `PUBLISH\_DIR` ([ehmicky](mailto:ehmicky@gmail.com))
-- [#29](https://github.com/munter/netlify-plugin-subfont/pull/29) Remove return value from `onPostBuild` ([Peter Müller](mailto:munter@fumle.dk), [ehmicky](mailto:ehmicky@gmail.com))
+- [#25](https://github.com/Munter/netlify-plugin-subfont/pull/25) Update Node.js to 10,12,13,14 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#30](https://github.com/Munter/netlify-plugin-subfont/pull/30) Rename `BUILD\_DIR` to `PUBLISH\_DIR` ([ehmicky](mailto:ehmicky@gmail.com))
+- [#29](https://github.com/Munter/netlify-plugin-subfont/pull/29) Remove return value from `onPostBuild` ([Peter Müller](mailto:munter@fumle.dk), [ehmicky](mailto:ehmicky@gmail.com))
 
 #### Commits to master
 
-- [Improve error handling by failing netlify build instead of throwing. Closes \#31](https://github.com/munter/netlify-plugin-subfont/commit/aa3b4544289e73d8e2173fac7eb82965301de9d4) ([Peter Müller](mailto:munter@fumle.dk))
-- [Update dependency eslint to v7](https://github.com/munter/netlify-plugin-subfont/commit/c6a83a500fee5bc893c210b5a26a07e7e0e338f1) ([Renovate Bot](mailto:bot@renovateapp.com))
-- [Update dependency @netlify\/build to ^0.4.0](https://github.com/munter/netlify-plugin-subfont/commit/97ed527d04d277bc9f6b2696e4fb42fb82b1484b) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Improve error handling by failing netlify build instead of throwing. Closes \#31](https://github.com/Munter/netlify-plugin-subfont/commit/aa3b4544289e73d8e2173fac7eb82965301de9d4) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency eslint to v7](https://github.com/Munter/netlify-plugin-subfont/commit/c6a83a500fee5bc893c210b5a26a07e7e0e338f1) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to ^0.4.0](https://github.com/Munter/netlify-plugin-subfont/commit/97ed527d04d277bc9f6b2696e4fb42fb82b1484b) ([Renovate Bot](mailto:bot@renovateapp.com))
 
 ### v4.0.1 (2020-04-20)
 
-- [Add manifest.yml to distributed package so netlify build applies defaults](https://github.com/munter/netlify-plugin-subfont/commit/c4d4f79fdc22b688addd9cba6a6c7d9b769d1e4c) ([Peter Müller](mailto:munter@fumle.dk))
-- [Update dependency @netlify\/build to ^0.3.0](https://github.com/munter/netlify-plugin-subfont/commit/a212daee334f402a118e8decbcbcfe16d005e842) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Add manifest.yml to distributed package so netlify build applies defaults](https://github.com/Munter/netlify-plugin-subfont/commit/c4d4f79fdc22b688addd9cba6a6c7d9b769d1e4c) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency @netlify\/build to ^0.3.0](https://github.com/Munter/netlify-plugin-subfont/commit/a212daee334f402a118e8decbcbcfe16d005e842) ([Renovate Bot](mailto:bot@renovateapp.com))
 
 ### v4.0.0 (2020-04-05)
 
 #### Pull requests
 
-- [#22](https://github.com/munter/netlify-plugin-subfont/pull/22) Update Node.js to 10,12,13 ([Renovate Bot](mailto:bot@renovateapp.com))
-- [#20](https://github.com/munter/netlify-plugin-subfont/pull/20) Upgrade to latest version of Netlify Build ([ehmicky](mailto:ehmicky@gmail.com))
-- [#16](https://github.com/munter/netlify-plugin-subfont/pull/16) Update installation instructions ([Jessica Parsons](mailto:verythorough@users.noreply.github.com))
-- [#11](https://github.com/munter/netlify-plugin-subfont/pull/11) Update nyc to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
-- [#12](https://github.com/munter/netlify-plugin-subfont/pull/12) Update eslint-plugin-node to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+- [#22](https://github.com/Munter/netlify-plugin-subfont/pull/22) Update Node.js to 10,12,13 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#20](https://github.com/Munter/netlify-plugin-subfont/pull/20) Upgrade to latest version of Netlify Build ([ehmicky](mailto:ehmicky@gmail.com))
+- [#16](https://github.com/Munter/netlify-plugin-subfont/pull/16) Update installation instructions ([Jessica Parsons](mailto:verythorough@users.noreply.github.com))
+- [#11](https://github.com/Munter/netlify-plugin-subfont/pull/11) Update nyc to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+- [#12](https://github.com/Munter/netlify-plugin-subfont/pull/12) Update eslint-plugin-node to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
 
 #### Commits to master
 
-- [Activate renovate](https://github.com/munter/netlify-plugin-subfont/commit/b37ffd7522fc57c6cbb17db1838168bded57ade2) ([Peter Müller](mailto:munter@fumle.dk))
-- [Update to prettier 2 and use eslint to run it](https://github.com/munter/netlify-plugin-subfont/commit/0f560b8cb08287485e418beb0a98cdee846ba4da) ([Peter Müller](mailto:munter@fumle.dk))
-- [Switch netlify config from deprecated yaml to toml](https://github.com/munter/netlify-plugin-subfont/commit/801fe3915125ec4c2b25613d17c58f4d2f0025cf) ([Peter Müller](mailto:munter@fumle.dk))
-- [Update dependencies and run audit](https://github.com/munter/netlify-plugin-subfont/commit/2c56d15445ac634c6a9521850b0968eb5cafa757) ([Peter Müller](mailto:munter@fumle.dk))
+- [Activate renovate](https://github.com/Munter/netlify-plugin-subfont/commit/b37ffd7522fc57c6cbb17db1838168bded57ade2) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update to prettier 2 and use eslint to run it](https://github.com/Munter/netlify-plugin-subfont/commit/0f560b8cb08287485e418beb0a98cdee846ba4da) ([Peter Müller](mailto:munter@fumle.dk))
+- [Switch netlify config from deprecated yaml to toml](https://github.com/Munter/netlify-plugin-subfont/commit/801fe3915125ec4c2b25613d17c58f4d2f0025cf) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependencies and run audit](https://github.com/Munter/netlify-plugin-subfont/commit/2c56d15445ac634c6a9521850b0968eb5cafa757) ([Peter Müller](mailto:munter@fumle.dk))
 
 ### v3.0.1 (2019-12-10)
 
 #### Pull requests
 
-- [#10](https://github.com/munter/netlify-plugin-subfont/pull/10) Update event handler name ([ehmicky](mailto:ehmicky@users.noreply.github.com))
-- [#8](https://github.com/munter/netlify-plugin-subfont/pull/8) chore\(package\): update @netlify\/build to version 0.1.23 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+- [#10](https://github.com/Munter/netlify-plugin-subfont/pull/10) Update event handler name ([ehmicky](mailto:ehmicky@users.noreply.github.com))
+- [#8](https://github.com/Munter/netlify-plugin-subfont/pull/8) chore\(package\): update @netlify\/build to version 0.1.23 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
 
 #### Commits to master
 
-- [Update @netlify\/build to 0.1.30](https://github.com/munter/netlify-plugin-subfont/commit/7e4aea012ac25394f72d33003621e0573361953d) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update @netlify\/build to 0.1.30](https://github.com/Munter/netlify-plugin-subfont/commit/7e4aea012ac25394f72d33003621e0573361953d) ([Peter Müller](mailto:munter@fumle.dk))
 
 ### v3.0.0 (2019-11-18)
 
 #### Pull requests
 
-- [#7](https://github.com/munter/netlify-plugin-subfont/pull/7) Update prettier to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+- [#7](https://github.com/Munter/netlify-plugin-subfont/pull/7) Update prettier to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
 
 #### Commits to master
 
-- [Remove canonicalRoot config and use URL env variable instead](https://github.com/munter/netlify-plugin-subfont/commit/48d9277c9d27a2a9cba0034ccc6a8910be06f0fa) ([Peter Müller](mailto:munter@fumle.dk))
-- [Update dependencies](https://github.com/munter/netlify-plugin-subfont/commit/c9a39dd7c5e05dfa6b00d02338033a85261adc4e) ([Peter Müller](mailto:munter@fumle.dk))
+- [Remove canonicalRoot config and use URL env variable instead](https://github.com/Munter/netlify-plugin-subfont/commit/48d9277c9d27a2a9cba0034ccc6a8910be06f0fa) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependencies](https://github.com/Munter/netlify-plugin-subfont/commit/c9a39dd7c5e05dfa6b00d02338033a85261adc4e) ([Peter Müller](mailto:munter@fumle.dk))
 
 ### v2.0.0 (2019-11-09)
 
-- [Use schema for input validation and defaults](https://github.com/munter/netlify-plugin-subfont/commit/9f83827f803f1bf82334853243fb1f9b92693fb3) ([Peter Müller](mailto:munter@fumle.dk))
+- [Use schema for input validation and defaults](https://github.com/Munter/netlify-plugin-subfont/commit/9f83827f803f1bf82334853243fb1f9b92693fb3) ([Peter Müller](mailto:munter@fumle.dk))
 
 ### v1.0.3 (2019-11-06)
 
-- [Use json schema to validate config](https://github.com/munter/netlify-plugin-subfont/commit/3df54e0740db8e2c3149d8ecab165c995cfd4e9a) ([Peter Müller](mailto:munter@fumle.dk))
-- [Add json schema for configuration](https://github.com/munter/netlify-plugin-subfont/commit/82b380a98b78179ccea0dcb221d7a8c0458c4c04) ([Peter Müller](mailto:munter@fumle.dk))
+- [Use json schema to validate config](https://github.com/Munter/netlify-plugin-subfont/commit/3df54e0740db8e2c3149d8ecab165c995cfd4e9a) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add json schema for configuration](https://github.com/Munter/netlify-plugin-subfont/commit/82b380a98b78179ccea0dcb221d7a8c0458c4c04) ([Peter Müller](mailto:munter@fumle.dk))
 
 ### v1.0.2 (2019-11-02)
 
-#### Pull requests
+- [Add missing keywords](https://github.com/Munter/netlify-plugin-subfont/commit/39bebaec8da9737d7717208ee3301fb0b946c0f6) ([Peter Müller](mailto:munter@fumle.dk))
 
-- [#5](https://github.com/munter/netlify-plugin-subfont/pull/5) Update to new array config syntax ([Peter Müller](mailto:munter@fumle.dk))
-- [#3](https://github.com/munter/netlify-plugin-subfont/pull/3) Add Greenkeeper badge 🌴 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+### v1.0.1 (2019-11-02)
 
-#### Commits to master
-
-- [Add missing keywords](https://github.com/munter/netlify-plugin-subfont/commit/39bebaec8da9737d7717208ee3301fb0b946c0f6) ([Peter Müller](mailto:munter@fumle.dk))
+- [#5](https://github.com/Munter/netlify-plugin-subfont/pull/5) Update to new array config syntax ([Peter Müller](mailto:munter@fumle.dk))
+- [#3](https://github.com/Munter/netlify-plugin-subfont/pull/3) Add Greenkeeper badge 🌴 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
 
 ### v1.0.0 (2019-10-18)
 
-- [Add README](https://github.com/munter/netlify-plugin-subfont/commit/dbadc0ff3d9fb22e262a9e541c785e7470ac1c22) ([Peter Müller](mailto:munter@fumle.dk))
-- [Add tests for config extraction](https://github.com/munter/netlify-plugin-subfont/commit/eac3e128cc0aba5e3247b889653ea7f3277d6a7c) ([Peter Müller](mailto:munter@fumle.dk))
-- [First working version](https://github.com/munter/netlify-plugin-subfont/commit/79af4da224bc04df04220a32534a2357ec85cfcd) ([Peter Müller](mailto:munter@fumle.dk))
-- [Add config](https://github.com/munter/netlify-plugin-subfont/commit/85ca9968881d5a12713a257df731d232555138a3) ([Peter Müller](mailto:munter@fumle.dk))
-- [Initial commit](https://github.com/munter/netlify-plugin-subfont/commit/99f51371b57b5107844d44edaf3b726280a32ea2) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add README](https://github.com/Munter/netlify-plugin-subfont/commit/dbadc0ff3d9fb22e262a9e541c785e7470ac1c22) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add tests for config extraction](https://github.com/Munter/netlify-plugin-subfont/commit/eac3e128cc0aba5e3247b889653ea7f3277d6a7c) ([Peter Müller](mailto:munter@fumle.dk))
+- [First working version](https://github.com/Munter/netlify-plugin-subfont/commit/79af4da224bc04df04220a32534a2357ec85cfcd) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add config](https://github.com/Munter/netlify-plugin-subfont/commit/85ca9968881d5a12713a257df731d232555138a3) ([Peter Müller](mailto:munter@fumle.dk))
+- [Initial commit](https://github.com/Munter/netlify-plugin-subfont/commit/99f51371b57b5107844d44edaf3b726280a32ea2) ([Peter Müller](mailto:munter@fumle.dk))
 
