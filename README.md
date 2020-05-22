@@ -2,7 +2,6 @@
 
 [![NPM version](https://badge.fury.io/js/netlify-plugin-subfont.svg)](http://badge.fury.io/js/netlify-plugin-subfont)
 [![Build Status](https://travis-ci.org/Munter/netlify-plugin-subfont.svg?branch=master)](https://travis-ci.org/Munter/netlify-plugin-subfont)
-[![Coverage Status](https://img.shields.io/coveralls/Munter/netlify-plugin-subfont.svg)](https://coveralls.io/r/Munter/netlify-plugin-subfont?branch=master)
 [![Dependency Status](https://david-dm.org/Munter/netlify-plugin-subfont.svg)](https://david-dm.org/Munter/netlify-plugin-subfont)
 
 Subfont post-processes your web page to analyse you usage of web fonts, then reworks your webpage to use an optimal font loading strategy for the best performance. It will also aggressively subset your fonts to speed up the time to font download.
