@@ -1,3 +1,7 @@
+### v5.0.1 (2020-05-25)
+
+- [Update to subfont 5.0.1. Fixes \#39](https://github.com/munter/netlify-plugin-subfont/commit/51602446af24d07668e0d33de904fc3e6eb24cb2) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v5.0.0 (2020-05-24)
 
 - [Only support node engines 10 and above](https://github.com/munter/netlify-plugin-subfont/commit/f698e4feded9a3f4b5b893a54a81eb32f0f729fd) ([Peter Müller](mailto:munter@fumle.dk))
