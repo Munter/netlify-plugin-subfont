@@ -33,11 +33,14 @@
 - Caveats about http2 and CDN distribution
 - Manual cache header setup
 - Tell it where your code is located
+- Mostly static pages
 
 ## About netlify plugin
-- Slots directly into exosting ecosystem
+- Slots directly into existing ecosystem
 - Http2 and CDN by default
 - Automated cache headers
 - Knows where your code is located
+- JamStack is mostly static pages
 
 ## Demo of netlify-plugin-subfont
+- Add this to your configuration
