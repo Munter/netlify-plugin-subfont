@@ -12,9 +12,11 @@
 - Spec focused on avoiding unnessessary downloads
 - Delays the reading experience due to blocking behavior
 - Techniques for optimizing range from easy to extremely hard
+- You need to know the tradeoffs and you need a strategy
 
 ## About subfont
 
+- Automates a very efficient strategy for static pages
 - Demo before/after measurements
 
 ### Features
