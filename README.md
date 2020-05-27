@@ -6,7 +6,7 @@
 
 Subfont post-processes your web page to analyse you usage of web fonts, then reworks your webpage to use an optimal font loading strategy for the best performance. It will also aggressively subset your fonts to speed up the time to font download.
 
-Subfont will generate some new files, fonts and CSS, and will add immutavble cache headers for them automatically.
+Subfont will generate some new files, fonts and CSS, and will add immutable cache headers for them automatically.
 
 See [Peter Müller](https://twitter.com/_munter_)'s presentation of [Subfont](https://www.npmjs.com/package/subfont) at [Fronteers 2019](https://vimeo.com/364391458).
 
