@@ -48,7 +48,7 @@ package = "netlify-plugin-subfont"
     "*.html",
   ]
 
-  # Follow your links across all pages to optimize the fonts across the antire site
+  # Follow your links across all pages to optimize the fonts across the entire site
   recursive = true
 
   # Subfont lets you set CSS font-display value of the optimized subsets
