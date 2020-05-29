@@ -1,3 +1,14 @@
+### v5.0.3 (2020-05-29)
+
+#### Pull requests
+
+- [#47](https://github.com/munter/netlify-plugin-subfont/pull/47) Fix typo in README.md ([Jordan Kicklighter](mailto:jwkicklighter@gmail.com))
+
+#### Commits to master
+
+- [Update subfont to 5.0.2. Fixes \#32](https://github.com/munter/netlify-plugin-subfont/commit/7b71f894d8920cd2cf5e53c51f72a2c9e7f7946f) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update README.md](https://github.com/munter/netlify-plugin-subfont/commit/42bdeb952f23f2d8e350bdc7bb7349547e7394f5) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v5.0.2 (2020-05-26)
 
 #### Pull requests
