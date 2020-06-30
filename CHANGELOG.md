@@ -1,3 +1,15 @@
+### v5.0.4 (2020-06-30)
+
+#### Pull requests
+
+- [#51](https://github.com/munter/netlify-plugin-subfont/pull/51) Update Node.js to 10,12,14 ([Renovate Bot](mailto:bot@renovateapp.com))
+
+#### Commits to master
+
+- [Update to subfont 5.0.4](https://github.com/munter/netlify-plugin-subfont/commit/c58f2c520032fe96f3721bff1e90401d6377ea6f) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency mocha to v8](https://github.com/munter/netlify-plugin-subfont/commit/e37aa323fe020bd0eb662d9c0e12830ab32e8421) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v2](https://github.com/munter/netlify-plugin-subfont/commit/be489310ea3143de5f3754132a7a8883bf79ba7b) ([Renovate Bot](mailto:bot@renovateapp.com))
+
 ### v5.0.3 (2020-05-29)
 
 #### Pull requests
