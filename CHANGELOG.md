@@ -1,3 +1,9 @@
+### v5.0.5 (2020-07-05)
+
+- [Update subfont to 5.0.6](https://github.com/munter/netlify-plugin-subfont/commit/0e52eafcf29d333342612030feb5f1cc6598cea9) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update developemnt dependencies](https://github.com/munter/netlify-plugin-subfont/commit/a5c159dfe2e28002c5cc463f88c142664b400a05) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency @netlify\/build to v3](https://github.com/munter/netlify-plugin-subfont/commit/8dd3cf915eaad46f455b7333b6c43a577ccefc1a) ([Renovate Bot](mailto:bot@renovateapp.com))
+
 ### v5.0.4 (2020-06-30)
 
 #### Pull requests
