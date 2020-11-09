@@ -54,7 +54,7 @@
     "magicpen-prism": "^4.0.0",
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
-    "offline-github-changelog": "^1.6.1",
+    "offline-github-changelog": "^2.0.0",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "unexpected": "^11.14.0"
