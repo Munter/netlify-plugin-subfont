@@ -36,7 +36,7 @@
   ],
   "dependencies": {
     "globby": "^11.0.3",
-    "subfont": "^5.0.7"
+    "subfont": "^6.0.0"
   },
   "devDependencies": {
     "@netlify/build": "^11.14.0",
