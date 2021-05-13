@@ -25,20 +25,10 @@ package = "netlify-plugin-subfont"
 
 Note: The `[[plugins]]` line is required for each plugin, even if you have other plugins in your `netlify.toml` file already.
 
-Make sure your Netlify Python version is not deprecated by setting a `PYTHON_VERSION` environment variable to `3.7`.
-
 To complete file-based installation, from your project's base directory, use npm, yarn, or any other Node.js package manager to add the plugin to `devDependencies` in `package.json`.
 
 ```
 npm install -D netlify-plugin-subfont
-```
-
-If you are using local fonts from your own repository it is recommended to also install [fonttools](https://github.com/fonttools/fonttools). On Netlify you can do this by adding the following content into `requirements.txt` in your project root:
-
-```
-fonttools
-brotli
-zopfli
 ```
 
 ## Configuration
