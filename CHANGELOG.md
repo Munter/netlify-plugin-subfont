@@ -1,3 +1,22 @@
+### v5.0.6 (2021-05-14)
+
+#### Pull requests
+
+- [#62](https://github.com/munter/netlify-plugin-subfont/pull/62) Bump bl from 4.0.2 to 4.0.3 ([dependabot[bot]](mailto:49699333+dependabot[bot]@users.noreply.github.com))
+- [#63](https://github.com/munter/netlify-plugin-subfont/pull/63) Bump node-fetch from 2.6.0 to 2.6.1 ([dependabot[bot]](mailto:49699333+dependabot[bot]@users.noreply.github.com))
+- [#97](https://github.com/munter/netlify-plugin-subfont/pull/97) Update Node.js to 12,14,15,16 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#88](https://github.com/munter/netlify-plugin-subfont/pull/88) Update README.md ([Cody](mailto:cody_28@hotmail.fr))
+- [#78](https://github.com/munter/netlify-plugin-subfont/pull/78) Update README.md ([rstavchansky](mailto:rachael@netlify.com))
+
+#### Commits to master
+
+- [npm audit fix](https://github.com/munter/netlify-plugin-subfont/commit/d04fd1731d2546c92f910fd2d8f63f41f760b868) ([Peter Müller](mailto:munter@fumle.dk))
+- [SEMVER-MAJOR: Update to subfont v6. Removes python fonttools dependency](https://github.com/munter/netlify-plugin-subfont/commit/77f555fc0e785610d8acb8c800e2ed6f975e2363) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update eslint-config-prettier](https://github.com/munter/netlify-plugin-subfont/commit/ca5e1914efacb4d8b32ad26dcd6920795b425a83) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update eslint-plugin-standard](https://github.com/munter/netlify-plugin-subfont/commit/26f51737bcb82a20aab302c8d7e48e5378e9b64c) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependencies](https://github.com/munter/netlify-plugin-subfont/commit/0d266bb890ca669171d169f876d0947827434bc8) ([Peter Müller](mailto:munter@fumle.dk))
+- [+17 more](https://github.com/munter/netlify-plugin-subfont/compare/v5.0.6...v5.0.6)
+
 ### v5.0.6 (2020-07-12)
 
 - [Update subfont to 5.0.7](https://github.com/munter/netlify-plugin-subfont/commit/9d3df3728ca094a67a24a6cb5d91d321c9f304f6) ([Peter Müller](mailto:munter@fumle.dk))
@@ -155,4 +174,3 @@
 - [First working version](https://github.com/munter/netlify-plugin-subfont/commit/79af4da224bc04df04220a32534a2357ec85cfcd) ([Peter Müller](mailto:munter@fumle.dk))
 - [Add config](https://github.com/munter/netlify-plugin-subfont/commit/85ca9968881d5a12713a257df731d232555138a3) ([Peter Müller](mailto:munter@fumle.dk))
 - [Initial commit](https://github.com/munter/netlify-plugin-subfont/commit/99f51371b57b5107844d44edaf3b726280a32ea2) ([Peter Müller](mailto:munter@fumle.dk))
-
