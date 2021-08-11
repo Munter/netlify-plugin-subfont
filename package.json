@@ -35,7 +35,7 @@
     "subsetting"
   ],
   "dependencies": {
-    "globby": "^11.0.3",
+    "globby": "^12.0.0",
     "subfont": "^6.0.1"
   },
   "devDependencies": {
